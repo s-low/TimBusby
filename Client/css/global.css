@@ -1,0 +1,115 @@
+/* universal site styles */
+
+body{
+	padding-top: 51px;
+	background-color: white;
+}
+
+.navbar {
+  border-color: grey !important;
+  background-color: grey;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-brand>a:hover,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+  color: rgb(255, 221, 85);
+  background-color: grey;
+}
+
+.huge {
+	font-weight: 800;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+/* navbar */
+.navbar-header a, .nav {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#icon {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+
+#icon object {
+	height: 100%;
+}
+
+.navbar {
+	min-width: 992px;
+}
+
+.navbar-nav{
+	margin-right: 20px;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  margin-right: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* FLUID as opposed to RESPONSIVE */
+.container-fluid{
+	min-width: 992px;
+}
+
+.row-same-height {
+    display: table;
+    width: 100%;
+}
+
+.col-xs-height {
+    display: table-cell;
+    float: none !important;
+}
+
+.bordertop{
+	border-top: 1px solid #ddd;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.full_height{
+	height: 100%;
+}
+
+.nomargin{
+	margin-bottom: 0px;
+}
+
+.notoppadding{
+	padding-top: 0px;
+}
+
+.nopadding{
+	padding-right: 0px;
+	padding-left: 0px;
+}

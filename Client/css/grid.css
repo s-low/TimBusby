@@ -1,0 +1,54 @@
+/* IMAGE GRID */
+.pic{
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.overlay{
+	transition: 0.2s;
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: black;
+	overflow:hidden;
+}
+
+.pic:hover .overlay { 
+	opacity:0.5;
+} 
+
+#image_grid {
+	background-color: black;
+	max-height: 900px;
+	max-width: 1333px;
+	margin: auto;
+}
+
+#image_grid .row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#image_grid img {
+	max-width: 100%;
+	transition: 0.2s;
+	max-height: 450px;
+}
+
+.tag{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:72px;
+    margin-top:-36px; 
+}
+
+.tag a {
+	display: inline-block;
+	text-decoration: none;
+}

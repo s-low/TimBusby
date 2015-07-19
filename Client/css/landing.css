@@ -1,0 +1,51 @@
+/* LANDING PAGE */
+body {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.landing{
+	display: table;
+	text-align: center;
+	height: 100%;
+}
+
+.landing h1{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 90px;
+	font-family: "Courier";
+}
+
+.landing h1 a {
+	text-decoration: none;
+}
+
+#landing_left{
+	background-color: black;
+}
+
+#landing_right{
+	background-color: white;
+}
+
+#landing_right h1 {
+	font-family: "Shadows Into Light";
+}
+
+#landing_left:hover{
+	background-color: white;
+}
+
+#landing_right:hover{
+	background-color: black;
+}
+
+#landing_left h1 a{
+	color: black;
+}
+
+#landing_right h1 a{
+	color: white;
+}
